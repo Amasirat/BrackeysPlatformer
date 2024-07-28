@@ -44,6 +44,7 @@ height = 12.0
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(1, -12)
+collision_layer = 2
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
